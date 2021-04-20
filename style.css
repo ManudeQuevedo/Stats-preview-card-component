@@ -30,7 +30,7 @@ body {
 /* Typography */
 .card-title {
    color: hsl(0, 0%, 100%);
-   font-family: 'Lexend Deca', sans-serif;
+   font-family: 'Inter', sans-serif;
    font-size: 1.5rem;
    font-weight: 700;
 }
@@ -97,13 +97,17 @@ body {
 }
 
 .card-footer p {
+   color: hsl(0, 0%, 100%)
    margin-bottom: 2em;
+   text-transform: uppercase;
 }
 
 .card-footer span {
-   color: hsla(0, 0%, 100%, 0.85);
+   color: hsl(0, 0%, 100%);
+   font-family: 'Inter', sans-serif;
+   font-size: 1.5rem;
    font-weight: 700;
-   font-size: 1.25rem;
+   text-transform: lowercase;
 }
 
 /* Footer */
@@ -152,7 +156,7 @@ footer {
       margin: 0 auto;
       margin-top: 0;
       order: -1;
-      padding: 0;
+      padding: 0.5em;
       width: 450px;
    }
 
@@ -178,21 +182,16 @@ footer {
       font-weight: 700;
       margin-top: 5em;
       text-align: left;
-      text-transform: uppercase;
-      width: 415px;
-   }
-
-   .card-footer span {
-      color: hsl(0, 0%, 100%)
-      font-size: 1.5rem;
+      width: 420px;
    }
 
    footer {
       background-color: transparent;
-      bottom: 0;
+      bottom: .5em;
       left: 50%;
       padding: 0;
       position: fixed;
       transform: translateX(-50%);
+      line-height: 0;
    }
 }
